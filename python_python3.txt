@@ -1,0 +1,12 @@
+Installing	[] python
+_____________________________
+Follow the steps
+_____________________________
+Type the command
+_____________________________
+1. "sudo apt install python3-dev python3-pip python-dev python-pip"
+
+Enter your password, note the password is not visible, just type and press Enter.
+The package will get loaded, Please continue by 'y' and Enter.
+
+Your package will install now automatically.
