@@ -15,7 +15,7 @@ From there read instructions for install.
 
 		OR
 
-Type the command : "sudo apt install tree"
+Type the command : "sudo apt install cmatrix"
 
 Enter your password, note the password is not visible, just type and press Enter.
 The package will get loaded, Please continue by 'y' and Enter.
