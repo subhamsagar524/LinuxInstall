@@ -1,0 +1,78 @@
+Installing	[] vundle
+_____________________________
+Follow the steps
+_____________________________
+Type the commands :
+
+You need to first install git, follow "git.txt" in the repository.
+
+1. "git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim"
+2. "cd .vim/bundle/Vundle.vim"
+Then you need to configuate the plugins:
+______________________________
+3. "nano .vimrc"
+4. Go to your File Manager and to this directory "/etc/vim/vimrc",open the file and copy everything.
+5. Go to terminal : Right Click on terminal and Paste everything in there.
+
+      OR 
+COPY THIS:
+set nocompatible              " be iMproved, required
+    filetype off                  " required
+
+    " set the runtime path to include Vundle and initialize
+    set rtp+=~/.vim/bundle/Vundle.vim
+    call vundle#begin()
+    " alternatively, pass a path where Vundle should install plugins
+    "call vundle#begin('~/some/path/here')
+
+    " let Vundle manage Vundle, required
+    Plugin 'VundleVim/Vundle.vim'
+
+    " The following are examples of different formats supported.
+    " Keep Plugin commands between vundle#begin/end.
+    " plugin on GitHub repo
+    Plugin 'tpope/vim-fugitive'
+    " plugin from http://vim-scripts.org/vim/scripts.html
+    " Plugin 'L9'
+    " Git plugin not hosted on GitHub
+    Plugin 'git://git.wincent.com/command-t.git'
+    " git repos on your local machine (i.e. when working on your own plugin)
+    Plugin 'file:///home/gmarik/path/to/plugin'
+    " The sparkup vim script is in a subdirectory of this repo called vim.
+    " Pass the path to set the runtimepath properly.
+    Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+    " Install L9 and avoid a Naming conflict if you've already installed a
+    " different version somewhere else.
+    " Plugin 'ascenator/L9', {'name': 'newL9'}
+
+    " All of your Plugins must be added before the following line
+    call vundle#end()            " required
+    filetype plugin indent on    " required
+    " To ignore plugin indent changes, instead use:
+    "filetype plugin on
+    "
+    " Brief help
+    " :PluginList       - lists configured plugins
+    " :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+    " :PluginSearch foo - searches for foo; append `!` to refresh local cache
+    " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+    "
+    " see :h vundle for more details or wiki for FAQ
+    " Put your non-Plugin stuff after this line
+
+
+6. Press : "Ctrl + O" to write the file.
+7. Press : "Ctrl + X" to exit. Press Y if it asks for yes | no.
+
+______________________________________________
+To Launch vim and run 
+_______________________
+8. Type the code : "vim +PluginInstall +qall"
+
+
+
+Enter your password if asked anywhere, note the password is visible, just type and press Enter.
+The package will get loaded, Please continue by 'y' and Enter.
+
+
+Your package is installed now.
