@@ -1,0 +1,116 @@
+Run a C/C++ program on terminal using gcc compiler
+__________________________________________________________________
+Follow these steps to run programs on terminal:
+__________________________________________________________________
+Step 1. Open terminal.
+
+Step 2. Type command to install gcc or g++ complier:
+
+						$ sudo apt-get install build-essential
+
+// This will install the necessary C/C++ development libraries 
+   for your Ubuntu to create C/C++ programs.
+
+		To check gcc version type this command:
+
+						$ gcc –version or gcc –v
+_________________________________________________________________
+Step 3. Now go to that folder where you will create C/C++ programs. I am creating my programs in Documents directory. Type these commands:
+
+						$ cd Documents/
+
+						$ sudo mkdir programs
+
+						$ cd programs/
+_________________________________________________________________
+Step 4. Open a file using any editor.
+
+						$ sudo gedit first.c (for C programs)
+
+						$ sudo gedit hello.cpp (for C++ prgrams)
+_________________________________________________________________
+Step 5. Add this code in the file:
+
+(i). C program code:
+
+#include<stdio.h>
+
+int main()
+
+{
+
+            printf(“\n\nWelcome to my Homepage!!\n\n”);
+
+            return 0;
+
+}
+
+(ii). C++ program code:
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+
+{
+
+            cout<<“\n\nHello World,\nWelcome to my first C ++ program on Ubuntu Linux\n\n”<<endl;
+
+            return 0;
+
+}
+
+Step 6. Save the file and exit.
+_________________________________________________________________
+Step 7. Compile the program using any of the following command:
+
+(i). Compiling C program.
+
+						$ sudo gcc first.c
+
+// It will create an executable file with “.out” extension 
+   named as “a.out”.
+
+Or
+
+						$ sudo gcc –o first first.c
+
+// Where first is the executable or object file of first.c program.
+
+
+
+
+(ii). Compiling C++ program.
+
+						$ sudo g++ hello.cpp (or)
+
+						$ sudo g++ -o hello hello.cpp
+
+[Note: Make sure you are in the same directory where you have created your program before compiling it.]
+_______________________________________________________________
+Step 8. To run this program type this command:
+
+(i). For running C program
+
+						$ ./a.out (If you compiled using first command)
+
+Or
+
+						$ ./first (If you compiled using second command)
+
+(ii). For running C++ program
+
+						$ ./a.out (If you compiled using first command)
+
+Or
+
+						$ ./hello (If you compiled using second command)
+
+// It will show output on the terminal.
+_______________________________________________________________
+
+Enter your password, note the password is not visible, just type and press Enter.
+The package will get loaded, Please continue by 'y' and Enter.
+
+Your package will install now automatically.
