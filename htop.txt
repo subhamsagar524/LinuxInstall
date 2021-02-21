@@ -1,8 +1,0 @@
-Installing	[] htop
-_____________________________
-
-Type the command : "sudo apt install htop"
-Enter your password, note the password is not visible, just type and press Enter.
-The package will get loaded, Please continue by 'y' and Enter.
-
-Your package will install now automatically.
