@@ -1,7 +1,23 @@
 # LinuxInstall
-Installing packages in Linux using Terminal
+Required Packages
 
-Make sure you are connected to internet, you can test it by running "ping www.google.com".
+## apt
+```shell
+sudo apt install aptitude asciiart baobab bleachbit cmatrix cowsay fortune gedit htop lolcat mpv neofetch nyancat sl tlp vim g++ gcc git build-essential nvidia-driver-455 jupyter-notebook python3 python3-pip
+```
 
-Open your linux terminal by "Ctrl + Alt + T".
+## Powerline
+```shell
+if [ -f /usr/share/powerline/bindings/bash/powerline.sh ]; then
+source /usr/share/powerline/bindings/bash/powerline.sh
+fi
+```
 
+## MKCDIR
+```shell
+mkcdir ()
+{
+    mkdir -p -- "$1" &&
+    cd -P -- "$1"
+}
+```
