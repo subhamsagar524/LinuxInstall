@@ -16,14 +16,15 @@ sudo snap install sublime-text --classic && sudo snap install telegram-desktop -
 pip3 install numpy pandas scipy matplotlib scikit-learn Keras tensorflow
 ```
 
-## Powerline
+## .bashrc file
+### powerline
 ```shell
 if [ -f /usr/share/powerline/bindings/bash/powerline.sh ]; then
 source /usr/share/powerline/bindings/bash/powerline.sh
 fi
 ```
 
-## MKCDIR
+### mkcdir
 ```shell
 mkcdir ()
 {
