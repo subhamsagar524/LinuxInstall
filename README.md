@@ -15,6 +15,8 @@ sudo snap install sublime-text --classic && sudo snap install telegram-desktop -
 ```shell
 pip3 install numpy pandas scipy matplotlib scikit-learn Keras tensorflow
 ```
+## tensorflow-gpu
+- https://medium.com/@redowan/no-bullshit-guide-on-installing-tensorflow-gpu-ubuntu-18-04-18-10-238924cc4a6a
 
 ## .bashrc file
 ### powerline
